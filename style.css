@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: darkblue;
+    font-size: 32px;
+    margin-top: 34px;
+}
+
+p{
+    color: darkcyan;
+    font-size: 16px;
+    margin: 22px;
+}
+
+ul{
+    color: darkgoldenrod;
+    font-size: 16px;
+}
+
+.container{
+    width: 300px;
+    border-radius: 8px;
+
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.btn{
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+}
